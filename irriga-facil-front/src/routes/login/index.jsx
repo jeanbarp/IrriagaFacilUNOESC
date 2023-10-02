@@ -36,7 +36,7 @@ export default function LoginRoute() {
 
         {loading ? <Loading /> : <FormButton type='submit'>Entrar</FormButton>}
 
-        <Link to={"cadastrar"} className={styles.button}>
+        <Link to={"/cadastro"} className={styles.button}>
           Cadastre-se
         </Link>
       </Form>
