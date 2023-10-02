@@ -8,6 +8,7 @@ export default function Nav() {
       <Link to={"login"} className={styles.button}>Login</Link>
       <Link to={"cadastro"} className={styles.button}>Cadastro</Link>
       <Link to={"propriedades"} className={styles.button}>Propriedades</Link>
+      <Link to={"cadastro-propriedade"} className={styles.button}>Cadastro Propriedade</Link>
     </nav>
   )
 }

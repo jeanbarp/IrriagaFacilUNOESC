@@ -1,0 +1,6 @@
+.input {
+  all: unset;
+  border: 1px solid #bababa;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}

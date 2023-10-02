@@ -1,0 +1,15 @@
+.button {
+  all: unset;
+  width: 100%;
+  border: 1px solid #bababa;
+  padding: 0.5rem;
+
+  cursor: pointer;
+  border-radius: 6px;
+  width: -webkit-fill-available;
+}
+
+.button:hover,
+.button:focus {
+  border-color: #333;
+}
