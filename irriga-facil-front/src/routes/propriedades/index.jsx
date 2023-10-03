@@ -1,5 +1,4 @@
-import Form from "../../components/form"
-import styles from "./index.module.css"
+import styles from "./index.module.css";
 
 export default function PropreiedadesRoute() {
   const propriedades = [
@@ -11,20 +10,24 @@ export default function PropreiedadesRoute() {
       nome: "Fazenda SMO",
       descricao: "6 cultivos",
     },
-  ]
+  ];
   return (
     <>
-      <h2>Cultivos</h2>
+      <h2 className={styles.cultivosTitle}>Cultivos</h2>
+      <div className={styles.page}>
         <div className={styles.cardsContainer}>
           {propriedades.map((propriedade, index) => {
             return (
               <button className={styles.propriedadeCard} key={index}>
                 <div className={styles.title}>{propriedade.nome}</div>
-                <div className={styles.description}>{propriedade.descricao}</div>
+                <div className={styles.description}>
+                  {propriedade.descricao}
+                </div>
               </button>
-            )
+            );
           })}
         </div>
+      </div>
     </>
-  )
+  );
 }

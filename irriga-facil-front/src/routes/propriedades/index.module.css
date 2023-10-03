@@ -4,7 +4,7 @@
   gap: 1rem;
   width: 100%;
   max-width: 400px;
-
+  color: white;
 }
 
 .propriedadeCard {
@@ -27,4 +27,27 @@
 
 .description {
   font-size: 0.9rem;
+}
+
+.cultivosTitle {
+  background-color: #04f8f7;
+  width: 153%;
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.page {
+  background-color: #050505;
+  width: 153%;
+  height: 799px;
+  display: flex;
+  justify-content: center;
+}
+
+.page>form {
+  margin-top: 20px;
+  justify-content: flex-start;
 }

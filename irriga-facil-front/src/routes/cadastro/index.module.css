@@ -1,0 +1,38 @@
+.login {
+    background-color: #04f8f7;
+    width: 153%;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.page {
+    background-color: #050505;
+    width: 153%;
+    height: 799px;
+    display: flex;
+    justify-content: center;
+}
+
+.page>form {
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+.usuario,
+.senha {
+    color: white;
+}
+
+.input>input {
+    width: 100%;
+}
+
+.cadastrar {
+    width: 100%;
+    background-color: #04f8f7;
+    color: black;
+    border-radius: 6px;
+}
